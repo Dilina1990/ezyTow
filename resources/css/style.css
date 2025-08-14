@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.5;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* ----------HEADER section---------- */
+/* header */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.header h1{
+    margin: 10px 0;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    color: rgb(139, 70, 21);
+    text-shadow: 1px 1px 2px rgb(12, 1, 1);
+}
+
+nav ul{
+    display: flex;
+    padding-bottom:5px;
+}
+
+nav ul li a{
+    font-size: 1.5em;
+    margin: 0 50px; 
+    letter-spacing: 0.3rem;
+}
+
+.nav-bar ul .call{
+    letter-spacing: 0.1rem;
+    border: 1px solid orange;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0;
+    }
+
+.nav-bar ul li a:link, .nav-bar ul li a:visited {
+    color: rgb(178, 104, 50);
+}
+
+
+.nav-bar ul li a:hover, .nav-bar ul li a:active {
+    color: rgb(95, 45, 9);
+}
+
+
+/* ----------MAIN Section---------- */
+/* banner */
+
+.banner{
+    background-image: url('../images/Towing-cover\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% bottom 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.banner h2{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 15%, 84%);
+    color:black;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    opacity: 0.8;
+    
+}
+
+.banner p{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 15%, 84%);
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.banner p span{
+    color:  rgb(240, 7, 7);
+    font-size: 1.7rem;
+}
+
+/* About Us */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 30px 30px;
+    border: 1px solid orange;
+    box-shadow: 5px 5px 5px rgba(232, 161, 61, 0.552);
+    border-radius: 10px;
+    column-gap: 50px;
+}
+
+.about div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+
+.about div h2{
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.about div p{
+    line-height: 2rem;
+    font-size: 1.125rem;
+}
+
+.about div p span{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.about img{
+    width: 20%;
+}
+
+/* Servises */
+.services{
+    line-height: 1.5rem;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.services h2{
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.services p{
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+.service-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service-section img{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.service{
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s;
+}
+
+.service:hover{
+    transform: scale(1.09);
+}
+
+.service img{
+    width: 80%;
+}
+
+
+.service p{
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* team */
+.team{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.team h2{
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.team-area{
+    background-image: url('../images/team-background.jpg');
+    background-size: 300rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    text-shadow: 5px 5px 5px black, -5px -5px 5px black;
+    padding: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+   
+}
+
+.member h3{
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(240, 236, 230);
+    letter-spacing: 0.3;
+    
+}
+
+.member p{
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.3;
+    width:60%;
+}
+/* ----------FOOTER---------- */
+.footer{
+    width: 100%;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: "Lexend Mega", sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.footer h2{
+    margin-top:20px;
+    font-size: 2rem;
+}
+
+#email, #tel{
+    letter-spacing: 0rem;
+    padding-bottom: 10px;
+}
+
+#copy-right{
+    margin:50px;
+}
